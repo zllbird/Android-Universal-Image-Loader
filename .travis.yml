@@ -1,5 +1,9 @@
+sudo: false
 language: android
 android:
   components:
-    - build-tools-21.1.2
-    - android-21
+    - platform-tools
+    - tools
+    - build-tools-23.0.2
+    - android-23
+    - extra
